@@ -16,8 +16,8 @@ function App() {
 
         {isAuthenticated ? (
           <>
-            <LogoutButton />
             <Profile />
+            <LogoutButton class="primary" />
           </>
         ) : (
           <LoginButton />
